@@ -19,25 +19,6 @@ Mejorar la escalabilidad
 
 Mantener un diseño limpio y modular
 
-📁 Estructura del Proyecto
-StrategyTS/
- ├─ dist/                   # Código compilado a JavaScript
- ├─ src/                    # Código fuente en TypeScript
- │   ├─ engine/             # Motor de notificaciones
- │   │     └─ NotificationEngine.ts
- │   ├─ models/             # Modelos del dominio
- │   │     ├─ Notificacion.ts
- │   │     └─ TipoEvento.ts
- │   └─ strategies/         # Estrategias concretas (Strategy Pattern)
- │         ├─ INotificador.ts
- │         ├─ NotificadorWhatsApp.ts
- │         ├─ NotificadorEmail.ts
- │         └─ NotificadorPush.ts
- ├─ diagramaNotificacion.png  # Diagrama UML del sistema
- ├─ package.json
- ├─ tsconfig.json
- └─ README.md
-
 🧠 Patrón Strategy Implementado
 
 El proyecto aplica el Patrón Strategy, donde:
