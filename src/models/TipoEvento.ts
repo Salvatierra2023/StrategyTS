@@ -1,0 +1,5 @@
+export enum TipoEvento {
+    PROMOCION = "PROMOCION",
+    STOCK_MINIMO = "STOCK_MINIMO",
+    MANTENIMIENTO = "MANTENIMIENTO",
+}
